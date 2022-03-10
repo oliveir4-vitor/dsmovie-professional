@@ -1,0 +1,41 @@
+
+* {
+    background-color: var(--color-primary);
+}
+
+p {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.dsmovie-nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white);
+
+}
+
+.dsmovie-nav-content h1 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.dsmovie-contact-container {
+    display: flex;
+    align-items: center;
+}
+
+.dsmovie-contact-container p {
+    padding: 0 0 0 10px;
+    font-size: 12px;
+}
